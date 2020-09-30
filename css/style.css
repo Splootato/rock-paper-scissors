@@ -1,0 +1,62 @@
+
+body {
+  background-image: url(../images/background.jpg);
+}
+.scoreStyle {
+    font-size: 20px;
+    margin-left: 85px;
+    margin-right: 10px;
+    font-family: monospace;
+    color: purple;
+}
+#buttons > button {
+  font-size: 16px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  color: black;
+  background-color: #33afcc;
+  text-decoration: none;
+  border: none;
+  opacity: 80%;
+  font-style: oblique;
+  font-weight: bolder;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 30px;
+  outline: none;
+}
+#buttons > button:hover {
+  opacity: 100%;
+  transform: scale(1.05);
+}
+#buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+#Images > img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+#imgContainer {
+  display: flex;
+  justify-content: center;
+}
+#scoreContainer {
+    display: flex;
+    justify-content: center;
+}
+#announcementContainer {
+    display: flex;
+    justify-content: center;
+}
+#Announcement{
+    width: 300px;
+}
+
+
+
